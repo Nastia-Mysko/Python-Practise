@@ -645,7 +645,42 @@ print(f" Marka: {car1.marka}, Model: {car1.model},Year:{car1.year}")'''
 my_car = Car('Toyota', 'Camry', 2020)
 my_car.display_info()'''
 
- 
-class BankAccount:
-    def __init__(self,) -> None:
-        pass
+#abs function
+#steps = -3
+#if abs(steps) > 0:
+ #    print('Persone move')
+
+
+#bool function
+#year = input("Enter year:")
+#if not bool(year.rstrip()):
+   # print(" You need enter year") 
+   #Оскільки у конструкції if тут використовується операція not (не),
+   # що означає «якщо функція bool не поверне True», на екрані з'явиться повідомлення 
+   #«Вам слід запровадити рік народження».
+
+
+'''year = input("Enter year:")
+if bool(year.rstrip()):
+    print(" You need enter year")'''
+
+
+#dir function
+
+#eval function
+#your_calculation = input('Введите выражение: ')
+#results = eval(your_calculation)
+#print(f"Current results", results)
+
+
+#exec (execution) function
+
+
+guess_this_number = 61
+player_guesses = [12, 15, 70, 45]
+if max(player_guesses) > guess_this_number:
+              print('Бабах! Youre dead')
+else:
+     print('You WIN WIN')
+
+
