@@ -645,7 +645,7 @@ print(f" Marka: {car1.marka}, Model: {car1.model},Year:{car1.year}")'''
 my_car = Car('Toyota', 'Camry', 2020)
 my_car.display_info()'''
 
-
+ 
 class BankAccount:
     def __init__(self,) -> None:
         pass
